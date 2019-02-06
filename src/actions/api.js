@@ -11,3 +11,7 @@ export const PRODUCTS = {
 export const PRODUCT = {
     get: (id) => `${BASE_URI}/products/${id}`,
 }
+
+export const USERS = {
+    post: () => `${BASE_URI}/users`,
+}
